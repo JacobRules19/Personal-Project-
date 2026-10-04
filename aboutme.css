@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 2px white;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+p{
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+}
+
+body{
+    background-color: gold;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
+nav,
+nav ul,
+nav li,
+nav a {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.code{
+    color: red;
+}

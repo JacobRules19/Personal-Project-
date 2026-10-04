@@ -1,0 +1,123 @@
+table, th, td {
+    border: 1px solid purple;
+    background-color: yellow;
+}
+
+table{
+    display: none;
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%
+}
+
+h2{
+    text-align: center;
+    text-shadow: 2px 2px 5px lightskyblue;
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+p{
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.75); /*Dark semi-transparent overlay */
+    color: #FFFFFF; /* High-contrast white text */
+    padding: 15px;
+    border-radius: 8px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+    text-shadow: 1px 1px 2px white;
+
+}
+
+.beach{
+    background-image: url('fiji.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
+nav,
+nav ul,
+nav li,
+nav a {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 15px;
+    border: 2px solid yellow;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.survivor{
+    color: lime;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+.animated-logo{
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.animated-logo:hover{
+    transform: scale(1.05);
+}
