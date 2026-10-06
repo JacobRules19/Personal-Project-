@@ -108,11 +108,6 @@ nav a {
     color: lime;
 }
 
-h3{
-    text-align: center;
-    color: white;
-}
-
 .animated-logo{
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
