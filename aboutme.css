@@ -21,12 +21,11 @@ body{
 
 .navbar{
     display: flex;
+    background-color: red;
     flex-direction: row;
-    gap: 20px;
-    padding: 10px 15px;
-    border: 2px solid black;
-    border-radius: 6px;
-    width: fit-content;
+    padding: 0;
+    gap: 3px;
+    padding: 4px;
 }
 
 nav ul {
@@ -72,4 +71,20 @@ nav a {
 
 .code{
     color: red;
+}
+
+.gaming{
+    width: 80px;
+    border: 5px solid green;
+    border-radius: 9px;
+}
+
+.yoyo{
+    width: 400px;
+    border: 1px solid blue;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
